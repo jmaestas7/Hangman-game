@@ -1,0 +1,76 @@
+body {
+	background-color: black;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 0 auto;
+	width: 70%;
+}
+
+.gametitle {
+	overflow: auto;
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	display: inline-block;
+	font-family: 'Press Start 2P', cursive;
+	padding-bottom: 100px;
+}
+
+
+.gamebox {
+	overflow: auto;
+	margin: 0 auto;
+	border-style: dashed;
+	border-color: white;
+	border-width: 5px;
+	width: 600px;
+	background-color: black;
+}
+
+#guessfield {
+	color: white;
+	margin: 0 auto;
+	font-family: 'Press Start 2P', cursive;
+	text-decoration: bold;
+	font-size: 15px;
+	text-align: center;
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+
+#gamestart {
+	color: white;
+	margin: 0 auto;
+	font-family: 'Press Start 2P', cursive;
+	text-decoration: bold;
+	font-size: 15px;
+	text-align: center;
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+#counter {
+	color: white;
+	margin: 0 auto;
+	font-family: 'Press Start 2P', cursive;
+	text-decoration: bold;
+	font-size: 15px;
+	text-align: center;
+}
+
+#wrongletters {
+	overflow: break-word;
+	color: white;
+	margin: 0 auto;
+	font-family: 'Press Start 2P', cursive;
+	text-decoration: bold;
+	font-size: 15px;
+	text-align: center;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	max-width: 500px;
+}
