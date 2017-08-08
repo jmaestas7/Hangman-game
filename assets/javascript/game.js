@@ -32,6 +32,9 @@ var alrGuessed = [];
 		"<p>Lives: " + lives + "</p>";
 		document.querySelector("#counter").innerHTML = counter;
 
+
+		document.getElementById("gamestart").remove();
+
 	}
 
 		document.onkeypress = checkKey;

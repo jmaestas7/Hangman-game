@@ -74,3 +74,13 @@ body {
 	padding-top: 25px;
 	max-width: 500px;
 }
+
+#mainimg {
+	overflow: break-word;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	max-width: 500px;
+
+}
